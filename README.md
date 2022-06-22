@@ -1,25 +1,25 @@
 <img src=".cbc/CBClogo.png" alt="Computing Boot Camp Logo" width="100"/>
 
-# BYU Computing Bootcamp - {Model} Tests
+# BYU Computing Bootcamp - Python Tests
 
-So you believe that you've mastered {Model}, do you? Well, it's time to prove it! Upon completion of this test, you will receive
-the "{Model} Knowledge Badge" from the BYU Computing Bootcamp to attest of your knowledge and expertise. Here's a link to the badge on Badgr so that you can go admire it: [Click here!](https://badgr.com/public/badges/opPKYN_pQFi6UWl1Q_aT5Q) Change this link to point to the correct place!
+So you believe that you've mastered Python, do you? Well, it's time to prove it! Upon completion of this test, you will receive
+the "Python Knowledge Badge" from the BYU Computing Bootcamp to attest of your knowledge and expertise. Here's a link to the badge on Badgr so that you can go admire it: [Click here!](https://badgr.com/public/badges/NgxIhrkmRMaX32vg1IaGtg) Change this link to point to the correct place!
 
 Use code like the following to draw the correct badge here!
 
 ```
-<img src="https://media.badgr.com/uploads/badges/8e853a0b-726b-4101-8cb0-4b299926f19d.png" alt="{Model} Badge" width="200"/>
+<img src="https://media.badgr.com/uploads/badges/104467dc-a510-4b5c-bdc5-711f5e994118.png" alt="Python Badge" width="200"/>
 ```
 
-While completing this test, you are not allowed to copy paste code from another source. If you are unable to complete the test this way, go back and practice some more! We don't do this because we're mean, but rather because we can't attest to your knowledge unless you can do it on your own. This means that when you do complete the test, you will actually be an expert in {Model}, rather than someone who knows how to copy and paste from the Internet.
+While completing this test, you are not allowed to copy paste code from another source. If you are unable to complete the test this way, go back and practice some more! We don't do this because we're mean, but rather because we can't attest to your knowledge unless you can do it on your own. This means that when you do complete the test, you will actually be an expert in Python, rather than someone who knows how to copy and paste from the Internet.
 
-Don't worry if the test gives you trouble, you can take it as many times as you'd like. The repeated trials will help you solidify the concepts into your brain, training yourself to remember the most important parts of {Model}.
+Don't worry if the test gives you trouble, you can take it as many times as you'd like. The repeated trials will help you solidify the concepts into your brain, training yourself to remember the most important parts of Python.
 
 ## Setup
 
 First, fork the repository to your user by pressing the fork button in the upper right hand corner. Then, you can clone the repository onto your computer with:
 ```
-git clone https://github.com/<your_username>/{model}Test.git
+git clone https://github.com/<your_username>/pythonTest.git
 ```
 Now you are now ready to start coding!
 Start out by entering your email into the 'email.txt' file, so that we can properly give you your badge when you pass the test.
@@ -46,10 +46,10 @@ pull request when its finished. So after a bit, check the Pull Request to see th
 It will have comments describing which parts of the test you passed.
 
 ### If you passed...
-Congratulations! You've passed the {Model} test, and you have been certified
-by the BYU Computing BootCamp to have "{Model}" Knowledge. You should receive an email with your badge contained inside. The
+Congratulations! You've passed the Python test, and you have been certified
+by the BYU Computing BootCamp to have "Python" Knowledge. You should receive an email with your badge contained inside. The
 Pull Request has a comment with the email that the badge was sent to, so if you didn't receive it, check to make sure
-you entered your email correctly. Show off the "{Model}" badge to potential employers, or use it with other Computing BootCamp 
+you entered your email correctly. Show off the "Python" badge to potential employers, or use it with other Computing BootCamp 
 badges to gain the "Software Development Knowledge" badge!
 
 ### If you didn't pass...

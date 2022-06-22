@@ -4,7 +4,7 @@ const getRepoInfo = async (authToken, infoNeeded) => {
   const octokit = new Octokit({ auth: authToken });
   const response = await octokit.request("GET /repos/{owner}/{repo}/pulls?state=open", {
     owner: "BYUComputingBootCampTests",
-    repo: "{model}Test"
+    repo: "pythonTest"
   });
 
   let index = 0;

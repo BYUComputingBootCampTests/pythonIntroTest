@@ -1,6 +1,6 @@
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var computingBootCampId = '0YOSWoQPQO-ehX8P3o7ZFw';
-var {model}BadgeEntityID = 'Insert new ID here!';
+var pythonBadgeEntityID = 'Insert new ID here!';
 
 //Program starts here
 var username = process.argv[2];
@@ -13,7 +13,7 @@ if (username.localeCompare('') == 0 || password.localeCompare('') == 0 || userEm
 }
 
 var accessToken = getAuthenticationToken(username, password);
-issueAssertionToTestUser(computingBootCampId, {model}BadgeEntityID, userEmail, accessToken);
+issueAssertionToTestUser(computingBootCampId, pythonBadgeEntityID, userEmail, accessToken);
 
 
 //This function can be used to get an authentication token to make requests with the server for the Computing Boot Camp
@@ -140,6 +140,6 @@ function issueAssertionToTestUser(issuerEntityID, badgeEntityID, userEmail, acce
 
     if (xhr.status != 201) throw "Error: Invalid Email Address - Please put a valid email address into email.txt on your \
 Forked Repository";
-    else console.log("Success! {model} Badge has been issued to" + userEmail);
+    else console.log("Success! python Badge has been issued to" + userEmail);
     //return JSON.parse(xhr.responseText);
 }

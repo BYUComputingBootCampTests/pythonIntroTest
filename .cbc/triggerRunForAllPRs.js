@@ -4,7 +4,7 @@ const triggerRunForAllPRs = async (authToken) => {
   const octokit = new Octokit({ auth: authToken });
   const response = await octokit.request("GET /repos/{owner}/{repo}/pulls?state=open", {
     owner: "BYUComputingBootCampTests",
-    repo: "{model}Test"
+    repo: "pythonTest"
   });
 
   console.log(response)
@@ -14,7 +14,7 @@ const triggerRunForAllPRs = async (authToken) => {
     const octokitMakeTest = new Octokit({ auth: authToken });
     const responseNew = await octokitMakeTest.request("POST /repos/{owner}/{repo}/dispatches", {
       owner: "BYUComputingBootCampTests",
-      repo: "{model}Test",
+      repo: "pythonTest",
       event_type: "test_pr"
     });
     sleep(10000); //Wait 10 seconds so the last workflow has time to label the PR as "currently being checked"

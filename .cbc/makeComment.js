@@ -4,7 +4,7 @@ const makeComment = async (authToken, issueNumber, comment) => {
   const octokit = new Octokit({ auth: authToken });
   const response = await octokit.request("POST /repos/{owner}/{repo}/issues/{issue_number}/comments", {
     owner: "BYUComputingBootCampTests",
-    repo: "{model}Test",
+    repo: "pythonTest",
     issue_number: issueNumber,
     body: comment
   });

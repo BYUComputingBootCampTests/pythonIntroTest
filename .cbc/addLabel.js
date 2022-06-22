@@ -4,7 +4,7 @@ const addLabel = async (authToken, issueNumber, labelToAdd) => {
   const octokit = new Octokit({ auth: authToken });
   const response = await octokit.request("POST /repos/{owner}/{repo}/issues/{issue_number}/labels", {
     owner: "BYUComputingBootCampTests",
-    repo: "{model}Test",
+    repo: "pythonTest",
     issue_number: issueNumber,
     labels: [labelToAdd]
   });
