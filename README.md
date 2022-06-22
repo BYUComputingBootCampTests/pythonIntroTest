@@ -3,9 +3,7 @@
 # BYU Computing Bootcamp - Python Tests
 
 So you believe that you've mastered Python, do you? Well, it's time to prove it! Upon completion of this test, you will receive
-the "Python Knowledge Badge" from the BYU Computing Bootcamp to attest of your knowledge and expertise. Here's a link to the badge on Badgr so that you can go admire it: [Click here!](https://badgr.com/public/badges/NgxIhrkmRMaX32vg1IaGtg) Change this link to point to the correct place!
-
-Use code like the following to draw the correct badge here!
+the "Python Knowledge Badge" from the BYU Computing Bootcamp to attest of your knowledge and expertise. Here's a link to the badge on Badgr so that you can go admire it: [Click here!](https://badgr.com/public/badges/NgxIhrkmRMaX32vg1IaGtg)
 
 <img src="https://media.badgr.com/uploads/badges/104467dc-a510-4b5c-bdc5-711f5e994118.png" alt="Python Badge" width="200"/>
 
