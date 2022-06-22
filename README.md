@@ -7,9 +7,7 @@ the "Python Knowledge Badge" from the BYU Computing Bootcamp to attest of your k
 
 Use code like the following to draw the correct badge here!
 
-```
 <img src="https://media.badgr.com/uploads/badges/104467dc-a510-4b5c-bdc5-711f5e994118.png" alt="Python Badge" width="200"/>
-```
 
 While completing this test, you are not allowed to copy paste code from another source. If you are unable to complete the test this way, go back and practice some more! We don't do this because we're mean, but rather because we can't attest to your knowledge unless you can do it on your own. This means that when you do complete the test, you will actually be an expert in Python, rather than someone who knows how to copy and paste from the Internet.
 
